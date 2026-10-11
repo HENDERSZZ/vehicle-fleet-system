@@ -1,0 +1,15 @@
+# Allow access to login and logout pages
+<Files "login.php">
+    Require all granted
+</Files>
+<Files "logout.php">
+    Require all granted
+</Files>
+
+# Block access to everything else in auth (optional)
+# <FilesMatch ".*">
+#     Require all denied
+# </FilesMatch>
+
+# Disable directory listing
+Options -Indexes

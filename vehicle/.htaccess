@@ -1,0 +1,6 @@
+# Apache 2.4: block access to config, dependency and dotfiles
+<FilesMatch "^(\.env.*|composer\.(json|lock)|\.git.*)$">
+  Require all denied
+</FilesMatch>
+
+Options -Indexes
