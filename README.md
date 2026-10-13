@@ -11,8 +11,8 @@ A web-based vehicle fleet management system originally developed for a governmen
 
 - **Vehicle inventory:** Registration, chassis and engine numbers, vehicle categories, and status tracking.
 - **Driver management:** Driver records and vehicle assignment/release history.
-- **Maintenance and refuelling:** Records with receipt uploads.
-- **Requisitions:** Vehicle request workflow.
+- **Integrated requisition, refuelling, and maintenance workflows:** Refuelling and maintenance activities are linked to approved requisitions. A user must submit a requisition and obtain approval before it becomes available for the corresponding refuelling or maintenance workflow.
+- **Requisitions and approval controls:** Requisitions follow an approval process, and users cannot approve their own requests. Approval must be performed by an authorized user other than the requester.
 - **Hierarchical access control:** Data access scoped by region, county, subcounty, or location.
 - **Role-based access:** Super admin, admin, HQ manager, manager, and staff roles.
 - **Reporting:** Dashboard statistics and CSV/PDF exports.
